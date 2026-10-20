@@ -4,7 +4,7 @@ class CfgPatches
 {
 	class HIRPTweaks
 	{
-		requiredAddons[] = {"DZ_Data","DZ_Scripts"};
+		requiredAddons[] = {"DZ_Data","DZ_Scripts","DZ_Gear_Tools","TerjeMedicine"};
 		units[] = {};
 		weapons[] = {};
 	};
@@ -31,17 +31,17 @@ class CfgMods
 			class gameScriptModule
 			{
 				value = "";
-				files[] = {"HIRPServerPack\scripts\3_Game"};
+				files[] = {"HiddenIslesTweaks\scripts\3_Game"};
 			};
 			class worldScriptModule
 			{
 				value = "";
-				files[] = {"HIRPServerPack\scripts\4_World"};
+				files[] = {"HiddenIslesTweaks\scripts\4_World"};
 			};
 			class missionScriptModule
 			{
 				value = "";
-				files[] = {"HIRPServerPack\scripts\5_Mission"};
+				files[] = {"HiddenIslesTweaks\scripts\5_Mission"};
 			};
 		};
 	};
