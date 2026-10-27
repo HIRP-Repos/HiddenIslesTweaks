@@ -7,11 +7,11 @@ class CfgPatches
 		requiredVersion=0.1;
 		requiredAddons[]=
 		{
-			"HIRPTweaks","HaraldsArmoryMisc"
+			"HIRPTweaks"
 		};
 	};
 };
-class CfgVehicles
+class CfgMagazines
 {
 	class Magazine_Base;
     class Ammunition_Base: Magazine_Base {};
@@ -20,7 +20,6 @@ class CfgVehicles
 
     class Ammo_45ACP: Ammunition_Base
 	{
-		scope = 2;
 		count=100;
 	};
 
