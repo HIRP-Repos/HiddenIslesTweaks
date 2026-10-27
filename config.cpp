@@ -31,17 +31,17 @@ class CfgMods
 			class gameScriptModule
 			{
 				value = "";
-				files[] = {"HiddenIslesTweaks\scripts\3_Game"};
+				files[] = {"HiddenIslesTweaks/scripts/3_Game"};
 			};
 			class worldScriptModule
 			{
 				value = "";
-				files[] = {"HiddenIslesTweaks\scripts\4_World"};
+				files[] = {"HiddenIslesTweaks/scripts/4_World"};
 			};
 			class missionScriptModule
 			{
 				value = "";
-				files[] = {"HiddenIslesTweaks\scripts\5_Mission"};
+				files[] = {"HiddenIslesTweaks/scripts/5_Mission"};
 			};
 		};
 	};
