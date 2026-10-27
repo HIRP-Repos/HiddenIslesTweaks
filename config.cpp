@@ -4,7 +4,7 @@ class CfgPatches
 {
 	class HIRPTweaks
 	{
-		requiredAddons[] = {"DZ_Data","DZ_Scripts","DZ_Gear_Tools","TerjeMedicine"};
+		requiredAddons[] = {"DZ_Data","DZ_Scripts","DZ_Gear_Tools","TerjeMedicine","HaraldsArmoryMisc"};
 		units[] = {};
 		weapons[] = {};
 	};

@@ -22,7 +22,7 @@ class CfgVehicles
 	{
         scope=2;
 		canBeSplit = 1;
-		weight=75;
+		weight=30;
 		varQuantityInit=4;
 		varQuantityMin=0;
 		varQuantityMax=4;
@@ -42,7 +42,7 @@ class CfgVehicles
 	{
         scope=2;
         canBeSplit = 1;
-		weight=5;
+		weight=1;
 		varQuantityInit=100;
 		varQuantityMin=0;
 		varQuantityMax=100;
@@ -51,8 +51,8 @@ class CfgVehicles
     class SewingKit: Inventory_Base
 	{
 		scope=2;
-        canBeSplit = 2.1;
-		weight=.1;
+        canBeSplit = 1;
+		weight=2.1;
 		varQuantityInit=100;
 		varQuantityMin=0;
 		varQuantityMax=100;
@@ -62,7 +62,7 @@ class CfgVehicles
 	{
 		scope=2;
         canBeSplit = 1;
-		weight=7.5;
+		weight=10;
 		varQuantityInit=100;
 		varQuantityMin=0;
 		varQuantityMax=100;
@@ -72,7 +72,7 @@ class CfgVehicles
 	{
 		scope=2;
         canBeSplit = 1;
-		weight=0.4;
+		weight=2;
 		varQuantityInit=100;
 		varQuantityMin=0;
 		varQuantityMax=100;
@@ -92,7 +92,7 @@ class CfgVehicles
 	{
 		scope=2;
         canBeSplit = 1;
-		weight=10;
+		weight=7.8;
 		varQuantityInit=100;
 		varQuantityMin=0;
 		varQuantityMax=100;
@@ -128,6 +128,16 @@ class CfgVehicles
 		varQuantityMax=200;
 	};
 
+	class DisinfectantSpray: Edible_Base
+	{
+		scope=2;
+		canBeSplit = 1;
+		weight=1.1;
+		varQuantityInit=500;
+		varQuantityMin=0;
+		varQuantityMax=500;
+	};
+
 	class TerjeAmpouleBase: Inventory_Base
 	{
 		scope=1;
@@ -147,14 +157,14 @@ class CfgVehicles
 		varQuantityMin = 0;
 		varQuantityMax = 5;
 	};
-
-	class DisinfectantSpray: Edible_Base
+	
+	class HA_AdvancedWeaponCleaningKit: WeaponCleaningKit
 	{
 		scope=2;
-		canBeSplit = 1;
-		weight=1.1;
-		varQuantityInit=500;
+        canBeSplit = 1;
+		weight=5;
+		varQuantityInit=200;
 		varQuantityMin=0;
-		varQuantityMax=500;
+		varQuantityMax=200;
 	};
-};    
+};   

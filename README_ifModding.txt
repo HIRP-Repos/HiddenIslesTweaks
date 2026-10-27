@@ -1,0 +1,1 @@
+Please check if the class you want to modify is already defined in the mod before adding the class to configs
